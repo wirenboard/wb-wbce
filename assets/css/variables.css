@@ -1,0 +1,6 @@
+:root {
+  --bg: #33313B;
+  --block-bg: #00000033;
+  --gradient: linear-gradient(104deg, #58B308 21%, #186F20 100%);
+  --border: 1px solid #4d9f0c;
+}

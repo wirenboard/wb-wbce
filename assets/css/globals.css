@@ -1,0 +1,89 @@
+body {
+  background: var(--bg);
+  height: 100dvh;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+  padding: 0 40px;
+  border-radius: 36px;
+  max-width: 1280px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Ubuntu', sans-serif;
+
+  @media (max-width: 1024px) {
+    padding: 0 20px;
+  }
+}
+
+article {
+  padding: 20px 0;
+}
+
+a,
+a:visited {
+  color: #a3ff57;
+}
+
+a:hover {
+  color: #fff;
+}
+
+h2 {
+  font-size: 60px;
+  margin-bottom: 76px;
+  color: #fff;
+
+  @media (max-width: 1024px) {
+    font-size: 40px;
+    margin-bottom: 48px;
+  }
+
+  @media (max-width: 700px) {
+    margin-top: 24px;
+  }
+
+  @media (max-width: 620px) {
+    text-align: left;
+    line-height: 38px;
+  }
+}
+
+button {
+  color: #fff;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 15px;
+  font-size: 20px;
+  background: var(--gradient);
+  line-height: 36px;
+  cursor: pointer;
+
+  @media (max-width: 550px) {
+    font-size: 18px;
+    padding: 8px 14px;
+  }
+}
+
+button:hover {
+  background: linear-gradient(103.91deg, #6AC40B 21.01%, #186F20 100%);
+}
+
+.spotlight {
+  background: #6AC40B;
+  filter: blur(70px);
+  margin: -200px 150px 220px;
+  opacity: 0.4;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  z-index: -1;
+}
+
+.spotlight-right {
+  right: 0;
+}
