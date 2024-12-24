@@ -1,0 +1,147 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#tpw_cont {
+    color: #fff;
+    border: 1px solid #4d9f0c;
+    padding: 16px 24px;
+    border-radius: 36px;
+}
+
+.b-registration__section,
+.twf2-branding {
+    display: none;
+}
+
+.b-registration__section.b-registration__section_success {
+    display: block !important;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.b-unit__header_size_mid_small,
+.b-registration__section a,
+.b-registration__section a:visited {
+    color: #fff;
+}
+
+.b-unit__header {
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+
+.b-registration__section_success {
+    border: 0;
+}
+
+.b-unit__text {
+    font-size: 24px !important;
+    font-weight: 100 !important;
+    color: #fff !important;
+}
+
+.tpwf-loader-caption,
+.b-registration__accept span,
+.b-registration__question_comment,
+.b-registration__label span {
+    color: #fff !important;
+}
+
+.i-page,
+.b-registration__label:focus, .b-registration__label:hover {
+    background: transparent !important;
+}
+
+.b-registration__label:focus span, .b-registration__label:hover span {
+    text-decoration: underline;
+}
+
+input {
+    border-radius: 14px !important;
+}
+
+.b-attendees .b-registration__check-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    @media (max-width: 700px) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 550px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.b-pro-wiget__reg-button {
+    color: #fff;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 15px;
+    font-size: 20px;
+    background: linear-gradient(103.91deg, #58B308 21.01%, #186F20 100%);
+    line-height: 36px;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.b-pro-wiget__reg-button:hover {
+    background: linear-gradient(103.91deg, #6AC40B 21.01%, #186F20 100%);
+}
+
+.b-registration__accept a,
+.b-registration__accept a:hover {
+    color: #fff;
+}
+
+.b-pro-wiget__reg-button:disabled {
+    opacity: 0.7;
+    color: #fff !important;
+}
+
+.b-reg-row {
+    display: grid;
+    gap: 0 24px;
+    grid-template-columns: fit-content(200px) 1fr;
+    grid-template-areas:
+        "a b"
+        "d c";
+
+    @media (max-width: 800px) {
+        display: block;
+    }
+}
+
+.b-registration__question {
+    text-align: right;
+
+    @media (max-width: 800px) {
+        text-align: left;
+    }
+}
+
+.help-block {
+    grid-area: c;
+}
+
+input[type="text"] {
+    padding: 10px 15px !important;
+    height: auto !important;
+    border-color: #5e5d61 !important;
+    color: #fff !important;
+}
+
+.b-input-block input[type="text"] {
+    background: #3c3a45 !important;
+}
+
+.b-reg-row .b-unit__text {
+    min-width: 310px;
+}
+
+.b-registration__question_mandatory {
+    color: #a3ff57;
+}
