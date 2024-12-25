@@ -48,6 +48,7 @@
 }
 
 .faq-question {
+  display: flex;
   color: #6AC40B;
   padding: 24px 32px;
   font-size: 24px;

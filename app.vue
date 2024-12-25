@@ -13,7 +13,7 @@ import Place from '~/src/place.vue';
 
 <template>
   <Head>
-    <Title>WBCE 2025</Title>
+    <Title>Конференция WBCE 2025</Title>
   </Head>
   <main>
     <Navigation />

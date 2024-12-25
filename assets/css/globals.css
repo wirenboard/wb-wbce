@@ -12,7 +12,6 @@ main {
   max-width: 1280px;
   margin: 0 auto;
   font-size: 18px;
-  line-height: 24px;
   font-family: 'Ubuntu', sans-serif;
 
   @media (max-width: 1024px) {
@@ -35,7 +34,7 @@ a:hover {
 
 h2 {
   font-size: 60px;
-  margin-bottom: 76px;
+  margin: 40px 0 68px;
   color: #fff;
 
   @media (max-width: 1024px) {
@@ -49,7 +48,6 @@ h2 {
 
   @media (max-width: 620px) {
     text-align: left;
-    line-height: 38px;
   }
 }
 
@@ -71,6 +69,11 @@ button {
 
 button:hover {
   background: linear-gradient(103.91deg, #6AC40B 21.01%, #186F20 100%);
+}
+
+details summary::marker,
+details summary::-webkit-details-marker {
+  display: none !important;
 }
 
 .spotlight {
