@@ -30,6 +30,7 @@
 
   @media (max-width: 550px) {
     padding: 24px;
+    background: url("/assets/img/video_poster.jpg");
   }
 }
 
@@ -40,6 +41,11 @@
   min-height: 100%;
   position: absolute;
   z-index: -2;
+  border-radius: 36px;
+
+  @media (max-width: 550px) {
+    display: none;
+  }
 }
 
 .main-video-bg {
@@ -49,10 +55,15 @@
   z-index: -1;
   top: 0;
   left: 0;
-  background: #7ba500;
   filter: saturate(0.8);
   mix-blend-mode: color;
+  background: rgb(123 165 0);
+  background-size: 100% 100%;
   opacity: 0.4;
+
+  @media (max-width: 550px) {
+    z-index: 1;
+  }
 }
 
 .main-date {
@@ -81,6 +92,7 @@
   font-weight: 900;
   line-height: 135px;
   max-width: 640px;
+  text-shadow: 0 1px 22px #000;
 
   @media (max-width: 1300px) {
     font-size: 100px;
@@ -107,6 +119,7 @@
   font-size: 24px;
   margin-bottom: 18px;
   line-height: 34px;
+  text-shadow: 0 1px 2px #000;
 
   @media (max-width: 1300px) {
     font-size: 18px;

@@ -14,10 +14,12 @@
     "gsap": "3.12.5",
     "nuxt": "3.14.1592",
     "vue": "3.5.13",
-    "vue-yandex-maps": "2.1.4"
+    "vue-yandex-maps": "2.1.4",
+    "yandex-metrika-module-nuxt3": "1.5.3"
   },
   "devDependencies": {
-    "@yandex/ymaps3-types": "1.0.15505218"
+    "@yandex/ymaps3-types": "1.0.15505218",
+    "postcss": "8.4.35"
   },
   "packageManager": "pnpm@9.1.0+sha512.67f5879916a9293e5cf059c23853d571beaf4f753c707f40cb22bed5fb1578c6aad3b6c4107ccb3ba0b35be003eb621a16471ac836c87beb53f9d54bb4612724"
 }

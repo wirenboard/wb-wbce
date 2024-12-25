@@ -5,8 +5,8 @@ export default defineNuxtConfig({
       link: [
         {
           rel: 'icon',
-          type: 'image/webp',
-          href: '/favicon.webp',
+          type: 'image/svg+xml',
+          href: '/favicon.svg',
         }
       ],
       meta: [
@@ -15,8 +15,20 @@ export default defineNuxtConfig({
           content: 'Выставка WBCE 2025'
         },
         {
+          property: 'og:site_name',
+          content: 'Wiren Board WBCE'
+        },
+        {
+          property: 'description',
+          content: 'Выставка и конференция по домашней и промышленной автоматизации'
+        },
+        {
           property: 'og:description',
           content: 'Выставка и конференция по домашней и промышленной автоматизации'
+        },
+        {
+          property: 'keywords',
+          content: 'Конференция умный дом, выставка автоматизация, выставка промышленной автоматизации'
         },
         {
           property: 'og:image',
@@ -29,7 +41,11 @@ export default defineNuxtConfig({
     '~/assets/css/variables.css',
     '~/assets/css/globals.css',
   ],
-  modules: ['@nuxtjs/google-fonts', 'vue-yandex-maps/nuxt'],
+  modules: [
+    '@nuxtjs/google-fonts',
+    'vue-yandex-maps/nuxt',
+    'yandex-metrika-module-nuxt3',
+  ],
   googleFonts: {
     families: {
       Ubuntu: true,
@@ -39,4 +55,10 @@ export default defineNuxtConfig({
   yandexMaps: {
     apikey: '1614c77e-4da5-4e31-b9e1-9dbaf4d4c80e',
   },
+  yandexMetrika: {
+    id: '99316061',
+    trackLinks: true,
+    accurateTrackBounce: true,
+    webvisor: true,
+  }
 })
