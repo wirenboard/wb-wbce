@@ -11,7 +11,7 @@ WBCE exhibition website
 
 1. Install dependencies `pnpm install`
 2. Start watch server `pnpm run dev`. It'll rebuild frontend on file change
-3Open your browser, navigate to [localhost:3000](https://localhost:3000/)
+3. Open your browser, navigate to [localhost:3000](https://localhost:3000/)
 
 ## Deployment
 
