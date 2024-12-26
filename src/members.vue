@@ -53,5 +53,9 @@
   @media (max-width: 470px) {
     max-width: 250px;
   }
+
+  @media (max-width: 290px) {
+    max-width: 160px;
+  }
 }
 </style>

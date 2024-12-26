@@ -17,6 +17,10 @@ main {
   @media (max-width: 1024px) {
     padding: 0 20px;
   }
+
+  @media (max-width: 290px) {
+    padding: 0 12px;
+  }
 }
 
 article {
@@ -48,6 +52,11 @@ h2 {
 
   @media (max-width: 620px) {
     text-align: left;
+  }
+
+  @media (max-width: 290px) {
+    font-size: 28px;
+    margin-top: 16px;
   }
 }
 
@@ -81,10 +90,16 @@ details summary::-webkit-details-marker {
   filter: blur(70px);
   margin: -200px 150px 220px;
   opacity: 0.4;
-  width: 180px;
-  height: 180px;
+  width: 100%;
+  max-width: 180px;
+  height: 100%;
+  max-height: 180px;
   position: absolute;
   z-index: -1;
+
+  @media (max-width: 290px) {
+    display: none;
+  }
 }
 
 .spotlight-right {
