@@ -3,7 +3,7 @@
     <time class="main-date" datetime="2025-17-04">17 – 18 апреля / Москва</time>
     <h1 class="main-title">WBCE 2025</h1>
     <p class="main-subtitle">Выставка и конференция по домашней<br /> и промышленной автоматизации</p>
-    <button @click="scrollToElementById('register')">Зарегистрироваться</button>
+    <button class="main-register" @click="scrollToElementById('register')">Зарегистрироваться</button>
     <p class="main-link">
       <img src="/assets/img/tg.svg" alt="">
       <a href="https://t.me/wbce2025" target="_blank">Подписывайтесь на Telegram-канал WBCE</a>
@@ -31,6 +31,10 @@
   @media (max-width: 550px) {
     padding: 24px;
     background: url("/assets/img/video_poster.jpg");
+  }
+
+  @media (max-width: 290px) {
+    padding: 24px 18px;
   }
 }
 
@@ -83,6 +87,10 @@
     font-size: 16px;
     padding: 10px 12px;
   }
+
+  @media (max-width: 290px) {
+    font-size: 14px;
+  }
 }
 
 .main-title {
@@ -131,6 +139,11 @@
     margin-top: 6px;
     font-size: 16px;
   }
+
+  @media (max-width: 290px) {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 .main-link {
@@ -141,6 +154,17 @@
 
   @media (max-width: 550px) {
     font-size: 16px;
+  }
+
+  @media (max-width: 290px) {
+    font-size: 14px;
+  }
+}
+
+.main-register {
+  @media (max-width: 290px) {
+    font-size: 16px;
+    padding: 4px 16px;
   }
 }
 </style>

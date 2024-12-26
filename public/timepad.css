@@ -7,6 +7,10 @@ body {
     border: 1px solid #4d9f0c;
     padding: 16px 24px;
     border-radius: 36px;
+
+    @media (max-width: 290px) {
+        padding: 12px 0;
+    }
 }
 
 .b-registration__section,
@@ -44,6 +48,10 @@ body {
 
     @media (max-width: 600px) {
         font-size: 18px !important;
+    }
+
+    @media (max-width: 290px) {
+        font-size: 16px !important;
     }
 }
 

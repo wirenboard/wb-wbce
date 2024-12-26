@@ -41,6 +41,13 @@ export default defineNuxtConfig({
     '~/assets/css/variables.css',
     '~/assets/css/globals.css',
   ],
+  postcss: {
+    plugins: {
+      autoprefixer: {
+        overrideBrowserslist: ['last 4 versions', 'iOS >= 8']
+      }
+    }
+  },
   modules: [
     '@nuxtjs/google-fonts',
     'vue-yandex-maps/nuxt',

@@ -62,6 +62,10 @@
   @media (max-width: 620px) {
     padding: 16px 24px;
   }
+
+  @media (max-width: 290px) {
+    padding: 12px 16px;
+  }
 }
 
 .faq-details:not([open]) .faq-question:before {
@@ -90,6 +94,10 @@
 
   @media (max-width: 620px) {
     padding: 0 24px 16px;
+  }
+
+  @media (max-width: 290px) {
+    padding: 12px 16px;
   }
 }
 </style>
