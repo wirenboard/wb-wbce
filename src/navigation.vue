@@ -18,7 +18,8 @@ const toggleMenu = () => {
       <li class="navigation-item"><a @click="scrollToElementById('place')">Место</a></li>
     </ul>
     <button class="navigation-menu" @click="toggleMenu">
-      <img src="/assets/img/menu.svg" alt="Меню">
+      <img src="/assets/img/close.svg" alt="Меню" v-if="isMenuOpened">
+      <img src="/assets/img/menu.svg" alt="Меню" v-else>
     </button>
     <div class="navigation-background"></div>
   </nav>
@@ -89,9 +90,28 @@ const toggleMenu = () => {
   align-items: center;
 }
 
+@media (max-width: 830px) {
+  .navigation-item {
+    margin-bottom: 12px;
+  }
+
+  .navigation-item:before {
+    background: #B9F28B;
+    width: 3px;
+    height: 18px;
+    content: '';
+    display: block;
+    margin-right: 12px;
+  }
+}
+
 .navigation-item {
   display: flex;
   align-items: center;
+}
+
+.isMenuOpened {
+  padding-top: 48px !important;
 }
 
 .navigation ul:not(.isMenuOpened) .navigation-item {

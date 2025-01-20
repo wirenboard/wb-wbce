@@ -49,7 +49,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <article id="about">
+  <article id="about" class="about-container">
     <h2>Что будет на WBCE</h2>
 
     <ul class="about-list" ref="list">
@@ -70,11 +70,15 @@ onMounted(() => {
         <div class="about-item-description">В 2024 году каждый 12 участник получил подарок от Wiren Board и партнеров: различные устройства и сертификаты.<br />Главным призом стал <a href="https://wirenboard.com/ru/product/wiren-board-8_5/" target="_blank">контроллер Wiren Board 8</a>.</div>
       </li>
     </ul>
-    <div class="spotlight" />
+    <div class="spotlight spotlight-about spotlight-right spotlight-top" />
   </article>
 </template>
 
 <style>
+.about-container {
+  position: relative;
+}
+
 .about-list {
   position: relative;
   padding: 0;
@@ -86,7 +90,7 @@ onMounted(() => {
 
 .about-item {
   border: var(--border);
-  background: #29272e;
+  background: #161A16;
   color: #fff;
   margin-bottom: 76px;
   border-radius: 25px;
@@ -146,5 +150,10 @@ onMounted(() => {
   @media (max-width: 700px) {
     line-height: 28px;
   }
+}
+
+.spotlight-about {
+  transform: scaleY(0.7);
+  right: -150px;
 }
 </style>

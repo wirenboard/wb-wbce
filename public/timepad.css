@@ -147,7 +147,8 @@ input[type="text"] {
 }
 
 .b-input-block input[type="text"] {
-    background: #3c3a45 !important;
+    background: #161A16 !important;
+    border: 1px solid #4d9f0c !important;
 }
 
 .b-reg-row .b-unit__text {

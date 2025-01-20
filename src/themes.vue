@@ -1,5 +1,5 @@
 <template>
-  <article id="themes">
+  <article id="themes" class="themes-container">
     <h2>Тематика выступлений</h2>
 
     <ul class="themes-content">
@@ -30,11 +30,15 @@
         Автоматизация<br />многоквартирных домов
       </li>
     </ul>
+    <div class="spotlight spotlight-themes" />
   </article>
-  <div class="spotlight spotlight-right" />
 </template>
 
 <style scoped>
+.themes-container {
+  position: relative;
+}
+
 .themes-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -64,5 +68,10 @@
   display: flex;
   gap: 24px;
   align-items: center;
+}
+
+.spotlight-themes {
+  bottom: -400px;
+  left: -150px
 }
 </style>

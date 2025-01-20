@@ -13,7 +13,6 @@
       height="570"
     />
   </article>
-  <div class="spotlight spotlight-right" />
 </template>
 
 <style scoped>
