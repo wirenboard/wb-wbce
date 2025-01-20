@@ -1,72 +1,39 @@
 <template>
   <div class="main-container">
-    <time class="main-date" datetime="2025-17-04">17 – 18 апреля / Москва</time>
-    <h1 class="main-title">WBCE 2025</h1>
-    <p class="main-subtitle">Выставка и конференция по домашней<br /> и промышленной автоматизации</p>
-    <button class="main-register" @click="scrollToElementById('register')">Зарегистрироваться</button>
-    <p class="main-link">
-      <img src="/assets/img/tg.svg" alt="">
-      <a href="https://t.me/wbce2025" target="_blank">Подписывайтесь на Telegram-канал WBCE</a>
-    </p>
-    <div class="main-video-bg"></div>
-    <video class="main-video" autoplay loop muted poster="/assets/img/video_poster.jpg">
-      <source src="/assets/video/main.mp4" type="video/mp4">
-    </video>
+    <div>
+      <time class="main-date" datetime="2025-17-04">17 – 18 апреля / Москва</time>
+      <h1 class="main-title">WBCE 2025</h1>
+      <p class="main-subtitle">Выставка и конференция по домашней<br /> и промышленной автоматизации</p>
+      <button class="main-register" @click="scrollToElementById('register')">Зарегистрироваться</button>
+      <p class="main-link">
+        <img src="/assets/img/tg.svg" alt="">
+        <a href="https://t.me/wbce2025" target="_blank">Подписывайтесь на Telegram-канал WBCE</a>
+      </p>
+    </div>
+    <div class="main-imageContainer">
+      <img src="/assets/img/main.jpg" class="main-image" alt="WBCE" />
+      <div class="main-imageBg" />
+    </div>
+    <div class="spotlight main-spotlight" />
   </div>
 </template>
 
 <style>
 .main-container {
+  position: relative;
   border-radius: 36px;
   color: #fff;
   text-align: left;
-  padding: 90px 52px;
-  position: relative;
-  overflow: hidden;
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
 
   @media (max-width: 1300px) {
-    padding: 40px;
-  }
-
-  @media (max-width: 550px) {
-    padding: 24px;
-    background: url("/assets/img/video_poster.jpg");
+    padding: 40px 18px;
   }
 
   @media (max-width: 290px) {
     padding: 24px 18px;
-  }
-}
-
-.main-video {
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  position: absolute;
-  z-index: -2;
-  border-radius: 36px;
-
-  @media (max-width: 550px) {
-    display: none;
-  }
-}
-
-.main-video-bg {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  filter: saturate(0.8);
-  mix-blend-mode: color;
-  background: rgb(123 165 0);
-  background-size: 100% 100%;
-  opacity: 0.4;
-
-  @media (max-width: 550px) {
-    z-index: 1;
   }
 }
 
@@ -100,7 +67,6 @@
   font-weight: 900;
   line-height: 135px;
   max-width: 640px;
-  text-shadow: 0 1px 22px #000;
 
   @media (max-width: 1300px) {
     font-size: 100px;
@@ -166,5 +132,45 @@
     font-size: 16px;
     padding: 4px 16px;
   }
+}
+
+.main-imageContainer {
+  border-radius: 25px;
+  border: var(--border);
+  padding: 20px;
+  position: relative;
+  height: fit-content;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
+
+.main-imageBg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  filter: blur(110px);
+  z-index: -1;
+}
+
+.main-image {
+  border-radius: 14px;
+
+  @media (max-width: 1300px) {
+    max-width: 500px;
+  }
+
+  @media (max-width: 1120px) {
+    max-width: 400px;
+  }
+}
+
+.main-spotlight {
+  top: 210px;
+  left: 35%;
+  opacity: 0.25;
 }
 </style>

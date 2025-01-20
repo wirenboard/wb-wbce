@@ -1,5 +1,5 @@
 <template>
-  <article id="faq">
+  <article id="faq" class="faq-container">
     <h2>Часто задаваемые вопросы</h2>
 
     <div class="faq-content">
@@ -33,12 +33,15 @@
         <div class="faq-answer">Да, есть бесплатная парковка.</div>
       </details>
     </div>
+    <div class="spotlight" />
   </article>
-
-  <div class="spotlight" />
 </template>
 
 <style scoped>
+.faq-container {
+  position: relative;
+}
+
 .faq-details {
   text-align: left;
   border-radius: 25px;

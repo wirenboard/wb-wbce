@@ -51,7 +51,7 @@ const icon = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAAB8CAYAAACbksWf
 
       <div>
         <div class="place-name">Отель «Виноградово»</div>
-        <a href="https://yandex.ru/maps/-/CHQZzVnI" target="_blank">г. Долгопрудный, Дмитровское&nbsp;шоссе,&nbsp;171</a>
+        <a href="https://yandex.ru/maps/-/CHQZzVnI" target="_blank">г. Москва, Дмитровское&nbsp;шоссе,&nbsp;171</a>
         <div class="place-description">
           <p>От метро Физтех: на бесплатной маршрутке с табличкой WBCE или на автобусе 763, 273, 302, или 572m до остановки «Виноградово».</p>
           <p>От метро Алтуфьево: на автобусе 586, 273, 352, 302 или 572 до остановки «Виноградово».</p>
