@@ -10,7 +10,7 @@
 
       <details class="faq-details">
         <summary class="faq-question">Когда и где будет проходить?</summary>
-        <div class="faq-answer">WBCE 2025 будет проходить 17-18 апреля по адресу: г. Долгопрудный, Дмитровское шоссе, 171, <a href="https://himv.ru/)">Отель «Виноградово»</a> (здесь можно остановиться, если вы из другого города). От метро Физтех каждые 15 минут будет ходить маршрутка.</div>
+        <div class="faq-answer">WBCE 2025 будет проходить 17-18 апреля по адресу: г. Москва, Дмитровское шоссе, 171, <a href="https://himv.ru/)">Отель «Виноградово»</a> (здесь можно остановиться, если вы из другого города). От метро Физтех каждые 15 минут будет ходить маршрутка.</div>
       </details>
 
       <details class="faq-details">
@@ -20,7 +20,7 @@
 
       <details class="faq-details">
         <summary class="faq-question">Будет ли запись выступлений?</summary>
-        <div class="faq-answer">Да, запись выступлений опубликуем спустя месяц после проведения мероприятия на YouTube-канале и PeerTube-канале.</div>
+        <div class="faq-answer">Да, запись выступлений опубликуем спустя месяц после проведения мероприятия на <a href="https://www.youtube.com/@wirenboard_ru" target="_blank">YouTube-канале</a> и <a href="https://peertube.wirenboard.com/" target="_blank">PeerTube-канале</a>.</div>
       </details>
 
       <details class="faq-details">
