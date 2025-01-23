@@ -14,6 +14,12 @@
       <img class="members-logo" src="/assets/logo/comfort_life.svg" alt="Comfort life">
       <img class="members-logo" src="/assets/logo/onokom.svg" alt="Onokom">
     </div>
+    <h2>Отраслевой партнер</h2>
+    <div class="members members-one">
+      <a href="https://hitechbuilding.ru/" target="_blank">
+        <img class="members-logo" src="/assets/logo/htb.svg" alt="HI-TECH Building">
+      </a>
+    </div>
   </article>
   <div class="spotlight" />
 </template>
@@ -45,6 +51,11 @@
     grid-template-columns: 1fr;
     justify-items: center;
   }
+}
+
+.members-one {
+  grid-template-columns: 250px;
+  justify-content: center;
 }
 
 .members-logo {
