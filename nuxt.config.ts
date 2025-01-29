@@ -50,6 +50,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/google-fonts',
+    'vue3-carousel-nuxt',
     'vue-yandex-maps/nuxt',
     'yandex-metrika-module-nuxt3',
   ],
