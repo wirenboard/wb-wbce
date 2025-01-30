@@ -30,7 +30,7 @@
         Автоматизация<br />многоквартирных домов
       </li>
     </ul>
-    <div class="spotlight spotlight-themes" />
+    <div class="spotlight themes-spotlight" />
   </article>
 </template>
 
@@ -70,7 +70,7 @@
   align-items: center;
 }
 
-.spotlight-themes {
+.themes-spotlight {
   bottom: -400px;
   left: -150px
 }

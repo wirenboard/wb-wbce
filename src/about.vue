@@ -70,7 +70,7 @@ onMounted(() => {
         <div class="about-item-description">В 2024 году каждый 12 участник получил подарок от Wiren Board и партнеров: различные устройства и&nbsp;сертификаты.<br />Главным призом стал <a href="https://wirenboard.com/ru/product/wiren-board-8_5/" target="_blank">контроллер Wiren Board 8</a>.</div>
       </li>
     </ul>
-    <div class="spotlight spotlight-about spotlight-right spotlight-top" />
+    <div class="spotlight about-spotlight spotlight-right spotlight-top" />
   </article>
 </template>
 
@@ -152,7 +152,7 @@ onMounted(() => {
   }
 }
 
-.spotlight-about {
+.about-spotlight {
   transform: scaleY(0.7);
   right: -150px;
 }
