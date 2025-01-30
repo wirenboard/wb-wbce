@@ -51,6 +51,7 @@
 }
 
 .faq-question {
+  border-radius: 25px;
   display: flex;
   color: #6AC40B;
   padding: 24px 32px;

@@ -3,4 +3,12 @@
   --block-bg: #00000033;
   --gradient: linear-gradient(104deg, #58B308 21%, #186F20 100%);
   --border: 1px solid #4d9f0c;
+
+  /* Стилизация слайдера */
+  --vc-nav-background: var(--gradient);
+  --vc-nav-border-radius: 6px;
+  --vc-nav-color: #fff;
+  --vc-nav-color-hover: #fff;
+  --vc-nav-width: 40px;
+  --vc-nav-height: 40px;
 }

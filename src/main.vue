@@ -5,14 +5,24 @@
       <h1 class="main-title">WBCE 2025</h1>
       <p class="main-subtitle">Выставка и конференция по домашней<br /> и промышленной автоматизации</p>
       <button class="main-register" @click="scrollToElementById('register')">Зарегистрироваться</button>
+
       <p class="main-link">
         <img src="/assets/img/tg.svg" alt="">
         <a href="https://t.me/wbce2025" target="_blank">Подписывайтесь на Telegram-канал WBCE</a>
       </p>
     </div>
-    <div class="main-imageContainer">
-      <img src="/assets/img/main.jpg" class="main-image" alt="WBCE" />
-      <div class="main-imageBg" />
+
+    <div class="main-videoContainer">
+      <iframe
+        title="Как это было: конференция и выставка WBCE 2024"
+        class="main-video"
+        src="https://peertube.wirenboard.com/videos/embed/7d61e2fd-c522-4abb-9957-257d21ff91e6?autoplay=1&amp;muted=1&amp;title=0&amp;warningTitle=0&amp;p2p=0"
+        frameborder="0"
+        allowfullscreen
+        width="100%"
+        height="340"
+        sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+      />
     </div>
     <div class="spotlight main-spotlight" />
   </div>
@@ -134,38 +144,23 @@
   }
 }
 
-.main-imageContainer {
+.main-videoContainer {
+  width: 100%;
+  max-width: 600px;
   border-radius: 25px;
   border: var(--border);
   padding: 20px;
   position: relative;
   height: fit-content;
+  margin-top: 70px;
 
   @media (max-width: 900px) {
     display: none;
   }
 }
 
-.main-imageBg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  filter: blur(110px);
-  z-index: -1;
-}
-
-.main-image {
-  border-radius: 14px;
-
-  @media (max-width: 1300px) {
-    max-width: 500px;
-  }
-
-  @media (max-width: 1120px) {
-    max-width: 400px;
-  }
+.main-video {
+  border-radius: 25px;
 }
 
 .main-spotlight {

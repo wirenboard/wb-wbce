@@ -14,12 +14,15 @@
       <img class="members-logo" src="/assets/logo/comfort_life.svg" alt="Comfort life">
       <img class="members-logo" src="/assets/logo/onokom.svg" alt="Onokom">
     </div>
+
     <h2>Отраслевой партнер</h2>
     <div class="members members-one">
       <a href="https://hitechbuilding.ru/" target="_blank">
         <img class="members-logo" src="/assets/logo/htb.svg" alt="HI-TECH Building">
       </a>
     </div>
+
+    <div class="members-contact">Если вы хотите участвовать со стендом или докладом, напишите&nbsp;<a href="https://wirenboard.com/ru/pages/contacts/" target="_blank">нам</a>.</div>
   </article>
   <div class="spotlight" />
 </template>
@@ -68,5 +71,12 @@
   @media (max-width: 290px) {
     max-width: 160px;
   }
+}
+
+.members-contact {
+  color: #fff;
+  margin-top: 72px;
+  font-size: 24px;
+  line-height: 34px;
 }
 </style>

@@ -55,19 +55,19 @@ onMounted(() => {
     <ul class="about-list" ref="list">
       <li class="about-item">
         <div class="about-item-title">Решения автоматизации</div>
-        <div class="about-item-description">От разработчиков ПО, производителей устройств для умных домов, ЖК, коммерческих и промышленных объектов, интеграторов умных домов.</div>
+        <div class="about-item-description">Будут представлены стенды разработчиков ПО, производителей устройств для умных домов, ЖК, коммерческих и промышленных объектов, интеграторов умных домов.</div>
       </li>
       <li class="about-item">
         <div class="about-item-title">Выступления экспертов</div>
-        <div class="about-item-description">На актуальные темы: сочетание проводных и беспроводных технологий, диспетчеризация и мониторинг, новинки оборудования на рынке автоматизации.</div>
+        <div class="about-item-description">Вместе с Партнерами расскажем о&nbsp;сочетании проводных и&nbsp;беспроводных технологий, диспетчеризации и мониторинге систем и&nbsp;новинках оборудования на&nbsp;рынке автоматизации.</div>
       </li>
       <li class="about-item">
         <div class="about-item-title">Экскурсия на производство</div>
-        <div class="about-item-description">Вы увидите, как собирают контроллеры и другие устройства для автоматизации.<br />Будет организован бесплатный транспорт каждые 15 минут.</div>
+        <div class="about-item-description">Вы увидите, как собирают контроллеры и&nbsp;другие устройства для автоматизации.<br />Будет организован бесплатный транспорт каждые 15 минут.</div>
       </li>
       <li class="about-item">
         <div class="about-item-title">Подарки и розыгрыш призов</div>
-        <div class="about-item-description">В 2024 году каждый 12 участник получил подарок от Wiren Board и партнеров: различные устройства и сертификаты.<br />Главным призом стал <a href="https://wirenboard.com/ru/product/wiren-board-8_5/" target="_blank">контроллер Wiren Board 8</a>.</div>
+        <div class="about-item-description">В 2024 году каждый 12 участник получил подарок от Wiren Board и партнеров: различные устройства и&nbsp;сертификаты.<br />Главным призом стал <a href="https://wirenboard.com/ru/product/wiren-board-8_5/" target="_blank">контроллер Wiren Board 8</a>.</div>
       </li>
     </ul>
     <div class="spotlight spotlight-about spotlight-right spotlight-top" />
