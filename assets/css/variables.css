@@ -5,10 +5,10 @@
   --border: 1px solid #4d9f0c;
 
   /* Стилизация слайдера */
-  --vc-nav-background: var(--gradient);
-  --vc-nav-border-radius: 6px;
-  --vc-nav-color: #fff;
-  --vc-nav-color-hover: #fff;
-  --vc-nav-width: 40px;
-  --vc-nav-height: 40px;
+  --vc-nav-background: var(--gradient) !important;
+  --vc-nav-border-radius: 6px !important;
+  --vc-nav-color: #fff !important;
+  --vc-nav-color-hover: #fff !important;
+  --vc-nav-width: 40px !important;
+  --vc-nav-height: 40px !important;
 }
