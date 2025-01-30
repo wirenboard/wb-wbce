@@ -3,18 +3,40 @@
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 import 'vue3-carousel/carousel.css'
 
-
 const images = Array.from({ length: 9 }, (_, index) => ({
   id: index + 1,
   url: `/photo/${index + 1}.jpg`,
 }));
+const itemsToShow = ref<number | 'auto'>('auto');
+
+onMounted(() => {
+  const resizeObserver = new ResizeObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.contentBoxSize && entry.contentBoxSize.length) {
+        if (entry.contentBoxSize[0].inlineSize <=665) {
+          itemsToShow.value = 1;
+        } else {
+          itemsToShow.value = 'auto';
+        }
+      }
+    });
+  });
+
+  resizeObserver.observe(document.body);
+});
 </script>
 
 <template>
   <article id="howitwas">
     <h2>Как это было в 2024</h2>
 
-    <Carousel class="howitwas-carousel" :transition="800" :gap="24" itemsToShow="auto" wrapAround>
+    <Carousel
+      class="howitwas-carousel"
+      :transition="800"
+      :gap="24"
+      :itemsToShow="itemsToShow"
+      wrapAround
+    >
       <Slide v-for="slide in images" :key="slide">
         <img :src="slide.url" alt="" class="howitwas-carouselSlide" />
       </Slide>
