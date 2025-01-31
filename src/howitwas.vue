@@ -51,6 +51,7 @@ onMounted(() => {
 <style>
 .howitwas-carousel {
   height: 600px;
+  outline: none;
 
   @media (max-width: 800px) {
     height: 400px;
@@ -62,11 +63,9 @@ onMounted(() => {
 }
 
 .howitwas-carouselSlide {
-  width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 25px;
-
 
   @media (max-width: 500px) {
     max-width: 100%;
