@@ -59,7 +59,7 @@ onMounted(() => {
       </li>
       <li class="about-item">
         <div class="about-item-title">Выступления экспертов</div>
-        <div class="about-item-description">Вместе с Партнерами расскажем о&nbsp;сочетании проводных и&nbsp;беспроводных технологий, диспетчеризации и мониторинге систем и&nbsp;новинках оборудования на&nbsp;рынке автоматизации.</div>
+        <div class="about-item-description">Вместе с партнерами расскажем о&nbsp;сочетании проводных и&nbsp;беспроводных технологий, диспетчеризации и мониторинге систем и&nbsp;новинках оборудования на&nbsp;рынке автоматизации.</div>
       </li>
       <li class="about-item">
         <div class="about-item-title">Экскурсия на производство</div>
