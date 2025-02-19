@@ -50,6 +50,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/google-fonts',
+    'nuxt-gtag',
     'vue3-carousel-nuxt',
     'vue-yandex-maps/nuxt',
     'yandex-metrika-module-nuxt3',
@@ -68,5 +69,11 @@ export default defineNuxtConfig({
     trackLinks: true,
     accurateTrackBounce: true,
     webvisor: true,
+  },
+  gtag: {
+    id: 'G-JR4JBWZMJL',
+    config: {
+      send_page_view: true,
+    }
   }
 })
