@@ -77,7 +77,7 @@ const members = [
 
     <div class="members-contact">Программа выступлений: <a href="https://fw-releases.wirenboard.com/wbce2025.pdf" target="_blank">Скачать</a></div>
 
-    <div class="members-contact">Хотите участвовать со стендом или выступить на конференции? <a href="https://wirenboard.com/ru/pages/contacts/" target="_blank">Напишите нам</a></div>
+    <div class="members-contact">Хотите участвовать в мероприятии на следующий год? <a href="https://wirenboard.com/ru/pages/contacts/" target="_blank">Напишите нам</a></div>
 
     <h2>Отраслевой партнер</h2>
     <div class="members members-one">
