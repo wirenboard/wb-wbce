@@ -20,7 +20,7 @@ const members = [
   { name: 'Rightech', logo: images.rightech, url: 'https://rightech.io/ru', description: 'Российский разработчик универсальной IoT-платформы Rightech IoT Cloud и интегратор отраслевых решений в области Интернета Вещей (IoT)' },
   { name: 'Nevoton', logo: images.nevoton, url: 'https://nevoton.ru/', description: 'Разработка и производство полного цикла контроллеров управления котельным оборудованием и медицинской техники' },
   { name: 'Super Wise', logo: images.super_wise, url: 'https://superwise.ru/', description: 'Разработчик готовых решений для автоматизации инженерных систем, реализованные на отечественном оборудовании и ПО' },
-  { name: 'Z-Wave>Me', logo: images['z-wave-me'], url: 'https://rus.z-wave.me/', description: 'Первый и крупнейший импортёр оборудования для умного дома Z-Wave в России' },
+  { name: 'Z-Wave.Me', logo: images['z-wave-me'], url: 'https://rus.z-wave.me/', description: 'Первый и крупнейший импортёр оборудования для умного дома Z-Wave в России' },
   { name: 'Blaxe', logo: images.blaxe, url: 'https://blaxe.ru/', description: 'Интегратор и разработчик системы автоматизации для домов, квартир и гостиниц на базе собственных контроллеров BLX' },
   { name: 'Bary', logo: images.bary, url: 'https://bary.io/', description: 'Разработка универсальной IoT-платформы и внедрение умных систем на объектах' },
   { name: 'Filosoft', logo: images.filosoft, url: 'https://filo-soft.ru/', description: 'IT-компания, разрабатывающая цифровые решения для девелоперов. Один из флагманских продуктов - система управления умным МКД «Мажордом»' },
@@ -74,8 +74,6 @@ const members = [
         <img src="/assets/img/chevron.png" :class="{ 'members-toggleIconRotated': !isPartiallyVisible }" />
       </div>
     </div>
-
-    <div class="members-contact">Программа выступлений: <a href="https://fw-releases.wirenboard.com/wbce2025.pdf" target="_blank">Скачать</a></div>
 
     <div class="members-contact">Хотите участвовать в мероприятии на следующий год? <a href="https://wirenboard.com/ru/pages/contacts/" target="_blank">Напишите нам</a></div>
 
@@ -209,6 +207,10 @@ const members = [
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
 }
 
 .members-toggleIconRotated {
