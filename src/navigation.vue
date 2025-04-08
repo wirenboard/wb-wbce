@@ -9,7 +9,8 @@ const toggleMenu = () => {
   <nav class="navigation">
     <ul :class="{ isMenuOpened }">
       <li class="navigation-item"><a @click="scrollToElementById('about')">Что будет</a></li>
-      <li class="navigation-item"><a @click="scrollToElementById('themes')">Темы</a></li>
+      <li class="navigation-item"><a @click="scrollToElementById('schedule')">Программа</a></li>
+<!--      <li class="navigation-item"><a @click="scrollToElementById('themes')">Темы</a></li>-->
       <li class="navigation-item"><a @click="scrollToElementById('history')">История</a></li>
       <li class="navigation-item"><a @click="scrollToElementById('howitwas')">Как это было</a></li>
       <li class="navigation-item"><a @click="scrollToElementById('members')">Участники</a></li>

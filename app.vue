@@ -3,7 +3,7 @@ import Navigation from '~/src/navigation.vue';
 import Main from '~/src/main.vue';
 import About from '~/src/about.vue';
 import Schedule from '~/src/schedule.vue';
-import Themes from '~/src/themes.vue';
+// import Themes from '~/src/themes.vue';
 import History from '~/src/history.vue';
 import Howitwas from '~/src/howitwas.vue';
 import Members from '~/src/members.vue';
@@ -23,7 +23,7 @@ import Place from '~/src/place.vue';
       <About />
     </ClientOnly>
     <Schedule />
-    <Themes />
+<!--    <Themes />-->
     <History />
     <Howitwas />
     <Members />
