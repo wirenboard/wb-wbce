@@ -75,6 +75,21 @@ const schedule = [
         <img src="/assets/img/chevron.png" :class="{ 'schedule-toggleIconRotated': !isPartiallyVisible }" />
       </div>
     </div>
+
+    <div class="schedule-dateToggler" v-if="!isPartiallyVisible">
+      <button class="schedule-dateTogglerButton" :class="{ 'schedule-dateTogglerButtonActive': choosenDate === '2025-04-17' }" @click="() => {
+        if (choosenDate === '2025-04-18') {
+          scrollToElementById('schedule');
+        }
+        choosenDate = '2025-04-17';
+      }">17 апреля</button>
+      <button class="schedule-dateTogglerButton" :class="{ 'schedule-dateTogglerButtonActive': choosenDate === '2025-04-18' }" @click="() => {
+        if (choosenDate === '2025-04-17') {
+          scrollToElementById('schedule');
+        }
+        choosenDate = '2025-04-18';
+      }">18 апреля</button>
+    </div>
   </article>
   <div class="spotlight" />
 </template>
