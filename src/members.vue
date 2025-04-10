@@ -10,7 +10,7 @@ const members = [
   { name: 'SberDevices', logo: images.sber_devices, url: 'https://sberdevices.ru/', description: 'Разработчик экосистемы умного дома с виртуальными ассистентами Салют и умными устройствами' },
   { name: 'Module', logo: images.module, url: 'https://module-electronic.ru/', description: 'Разработка и производство приборов промышленной и домашней автоматизации' },
   { name: 'Lavritech', logo: images.lavritech, url: 'https://lavritech.com/', description: 'Разработка и производство оборудования для создания систем автоматизации и Интернета вещей (IoT)' },
-  { name: 'Milchyakov Sergey', logo: images.milchyakov_sergey, url: 'https://habr.com/ru/articles/894036/', description: 'Незрячий инженер проектировщик, занимается сборкой, пусконаладкой и настройкой щитов для домашней и промышленной автоматизации' },
+  { name: 'Milchyakov Sergey', logo: images.milchyakov_sergey, url: 'https://habr.com/ru/articles/894036/', description: 'Незрячий инженер-проектировщик, занимается сборкой, пусконаладкой и настройкой щитов для домашней и промышленной автоматизации' },
   { name: 'DemidNet', logo: images.demidnet, url: 'https://demid.net/', description: 'Производство контроллеров автоматизации освещения' },
   { name: 'Цинтрон', logo: images.cyntron, url: 'https://cyntron.ru/', description: 'Производитель и разработчик инженерного оборудования и систем управления' },
   { name: 'ТехРу', logo: images.techru, url: 'https://sinum-tech.ru/', description: 'Продажа приборов для автоматизации, полный спектр услуг по тех. поддержке и консультациям по подбору оборудования' },
@@ -75,7 +75,7 @@ const members = [
       </div>
     </div>
 
-    <div class="members-contact">Хотите участвовать в мероприятии на следующий год? <a href="https://wirenboard.com/ru/pages/contacts/" target="_blank">Напишите нам</a></div>
+    <div class="members-contact">Хотите участвовать в мероприятии в следующем году? <a href="https://wirenboard.com/ru/pages/contacts/" target="_blank">Напишите нам</a></div>
 
     <h2>Отраслевой партнер</h2>
     <div class="members members-one">
