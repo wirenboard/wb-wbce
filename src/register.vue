@@ -29,5 +29,12 @@ onMounted(() => {
   <article id="register">
     <h2>Регистрация</h2>
   </article>
+  <div class="register-link">Если возникли проблемы с регистрацией, попробуйте <a href="https://wirenboard.timepad.ru/event/3152773/" target="_blank">зарегистрироваться на сайте TimePad</a></div>
   <div class="spotlight spotlight-right" />
 </template>
+
+<style scoped>
+.register-link {
+  color: #fff;
+}
+</style>
