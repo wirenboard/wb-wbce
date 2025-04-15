@@ -43,7 +43,7 @@ const schedule = [
   { date: '2025-04-18', time: '15:40', company: 'Третий пин', theme: 'Вам (не)надо разрабатывать электронику' },
   { date: '2025-04-18', time: '16:00', company: 'Wiren Board', theme: 'Секретный доклад №2' },
   { date: '2025-04-18', time: '16:20', company: 'Rapid SCADA', theme: 'Разработка заказного программного обеспечения для систем диспетчеризации на базе Rapid SCADA' },
-  { date: '2025-04-18', time: '16:40', company: 'TESLA SMART', theme: 'TESLiOT LR Edition (TLRE) - комплексная беспроводная система для контроля микроклимата в ритейле (склады, супермаркеты), пищевых производствах, ресторанах, центрах обработки данных (ЦОД), в цехах и на складах промышленных предприятий' },
+  { date: '2025-04-18', time: '16:40', company: 'TESLA SMART', theme: 'TESLiOT Long Range Edition (TLRE) - экосистема контроля микроклимата на Bluetooth' },
   { date: '2025-04-18', time: '17:00', company: 'Розыгрыш призов', highlighted: true },
 ];
 </script>
