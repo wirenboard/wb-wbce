@@ -49,6 +49,7 @@ const members = [
   { name: 'ЛИИС', logo: images.liis, url: 'https://simplehome.liis.su/', description: 'Системный интегратор и технологически ориентированный генеральный подрядчик. Реализация проектов в формате fit-out, сопровождение проектов на всех этапах' },
   { name: 'Humidex', logo: images.humidex, url: 'https://humidex.ru/', description: 'Производитель форсуночной системы увлажнения воздуха на базе Wiren Board' },
   { name: 'Ensystec', logo: images.ensystec, url: 'https://ensystec.ru/', description: 'Производитель оборудования для управления водоснабжением и систем защиты от протечек с поддержкой Modbus, Zigbee' },
+  { name: 'Intelligent House', logo: images.intelligent_house, url: 'https://i-ntelligent.ru/', description: 'Интегратор, автоматизирует дома и квартиры. Разработал типовое решение для квартир, что позволяет снизить стоимость системы' },
 ];
 </script>
 
