@@ -4,12 +4,12 @@
       <time class="main-date" datetime="2025-17-04">17 – 18 апреля / Москва</time>
       <h1 class="main-title">WBCE 2025</h1>
       <p class="main-subtitle">Выставка и конференция по домашней<br /> и промышленной автоматизации</p>
-      <button class="main-register" @click="scrollToElementById('register')">Зарегистрироваться</button>
 
       <p class="main-link">
         <img src="/assets/img/tg.svg" alt="">
         <a href="https://t.me/wbce2025" target="_blank">Подписывайтесь на Telegram-канал WBCE</a>
       </p>
+      <p>Друзья, регистрация завершена, но мы всё равно ждём вас в гости! Просто приезжайте и сообщите, что у вас нет билета, мы выдадим вам бейдж.</p>
     </div>
 
     <div class="main-videoContainer">
